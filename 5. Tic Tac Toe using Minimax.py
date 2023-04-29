@@ -1,6 +1,5 @@
 import random
 import copy as cp
-# NOTE use cp.deepcopy() so the temp variable isn't linked with the other
 
 class Cell:
     def __init__(self, position, location, max_val, min_val):
